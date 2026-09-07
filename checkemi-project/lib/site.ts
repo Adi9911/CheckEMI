@@ -1,1 +1,1 @@
-export const SITE_URL = "https://checkemi.app"
+export const SITE_URL = "https://check-emi.vercel.app"
