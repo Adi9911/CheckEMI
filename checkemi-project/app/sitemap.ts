@@ -18,5 +18,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
+
   return [...pages, ...calculators]
 }
