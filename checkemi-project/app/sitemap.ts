@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next"
 import { CALCULATOR_SEO_PAGES } from "@/lib/calculator-seo"
-import { SITE_URL } from "@/lib/site"
+
+const SITE_URL = "https://check-emi.vercel.app"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = ["/", "/about", "/contact", "/privacy-policy", "/terms", "/disclaimer"].map((path) => ({
