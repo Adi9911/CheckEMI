@@ -7,7 +7,7 @@ import { ResultHighlight, ResultRow } from "./result-panel"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { calcGST, formatINR } from "@/lib/formulas"
-import { cn } from "@/lib/utils"
+import { cn } from ""@/lib/utils""
 
 const C1 = "var(--chart-1)"
 const C5 = "var(--chart-5)"

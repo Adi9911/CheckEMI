@@ -5,7 +5,7 @@ import { SliderField } from "./slider-field"
 import { BreakdownDonut } from "./breakdown-donut"
 import { ResultHighlight, ResultRow } from "./result-panel"
 import { calcIncomeTax, formatINR, type TaxRegime } from "@/lib/formulas"
-import { cn } from "@/lib/utils"
+import { cn } from ""@/lib/utils""
 
 const C1 = "var(--chart-1)"
 const C4 = "var(--chart-4)"
