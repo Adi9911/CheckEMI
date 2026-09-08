@@ -10,7 +10,7 @@ import {
   type ChartConfig,
 } from "@/components/ui/chart"
 import { amortizationSchedule, formatCompactINR, formatINR } from "@/lib/formulas"
-import { cn } from ""@/lib/utils""
+import { cn } from  "@/lib/utils"
 
 const chartConfig: ChartConfig = {
   principalPaid: { label: "Principal", color: "var(--chart-1)" },
