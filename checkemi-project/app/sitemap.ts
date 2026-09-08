@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next"
 import { CALCULATOR_SEO_PAGES } from "@/lib/calculator-seo"
-
+export const dynamic = 'force-dynamic'
 const SITE_URL = "https://check-emi.vercel.app"
 
 export default function sitemap(): MetadataRoute.Sitemap {
