@@ -1,0 +1,29 @@
+# Query: import { cn } from  "@/lib/utils"
+# ContextLines: 1
+
+5 results - 5 files
+
+checkemi-project/components/calculators/amortization-schedule.tsx:
+  12  import { amortizationSchedule, formatCompactINR, formatINR } from "@/lib/formulas"
+  13: import { cn } from  "@/lib/utils"
+  14  
+
+checkemi-project/components/calculators/calculator-hub.tsx:
+  5  import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  6: import { cn } from  "@/lib/utils"
+  7  import { EmiCalculator } from "./emi-calculator"
+
+checkemi-project/components/calculators/gst-calculator.tsx:
+   9  import { calcGST, formatINR } from "@/lib/formulas"
+  10: import { cn } from  "@/lib/utils"
+  11  
+
+checkemi-project/components/calculators/income-tax-calculator.tsx:
+  7  import { calcIncomeTax, formatINR, type TaxRegime } from "@/lib/formulas"
+  8: import { cn } from  "@/lib/utils"
+  9  
+
+checkemi-project/components/calculators/result-panel.tsx:
+  1  import type { ReactNode } from "react"
+  2: import { cn } from  "@/lib/utils"
+  3  
